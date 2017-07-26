@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170719034915) do
+ActiveRecord::Schema.define(version: 20170726141550) do
 
   create_table "photo_album_names", force: :cascade do |t|
     t.text     "name"
@@ -25,6 +25,18 @@ ActiveRecord::Schema.define(version: 20170719034915) do
     t.integer  "photo_album_name_id"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+  end
+
+  create_table "plans", force: :cascade do |t|
+    t.text     "title"
+    t.text     "destination"
+    t.text     "vehicle"
+    t.text     "strategy"
+    t.date     "date"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+    t.integer  "user_id"
+    t.integer  "photo_album_name_id"
   end
 
   create_table "users", force: :cascade do |t|

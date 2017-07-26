@@ -42,6 +42,7 @@ class PhotoAlbumV1API < Grape::API
     #ActiveModel::ForbiddenAttributesError
     #bug end
     photo_album = PhotoAlbumName.create(:user_id => current_user.id,:name => params[:name])
+    status 201
     present :photo_album ,photo_album,with: Entities::PhotoAlbumName
 
   end
@@ -63,6 +64,7 @@ class PhotoAlbumV1API < Grape::API
       pic.destroy if res[:code] == 200
     end
     photo_album.destroy if photo_album.pictures.count == 0
+    status 201
     present :photo_album ,photo_album,with: Entities::PhotoAlbumName
   end
 
@@ -79,6 +81,7 @@ class PhotoAlbumV1API < Grape::API
     authenticate!
     PhotoAlbumName.find(params[:photo_album_name_id]).update(:name => params[:name])
     photo_album = PhotoAlbumName.find(params[:photo_album_name_id])
+    status 201
     present :photo_album ,photo_album,with: Entities::PhotoAlbumName
   end
 
@@ -97,6 +100,7 @@ class PhotoAlbumV1API < Grape::API
   get '' do
     authenticate!
     photo_albums = PhotoAlbumName.where(params)
+    status 201
     present :photo_album ,paginate(photo_albums),with: Entities::PhotoAlbumName
   end
 

@@ -3,6 +3,7 @@ class User < ApplicationRecord
 
   has_many :photo_album_names
   has_many :pictures
+  has_many :plans
 
   def set_token
     loop do

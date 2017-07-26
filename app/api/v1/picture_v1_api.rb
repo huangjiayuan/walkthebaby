@@ -41,6 +41,7 @@ class PictureV1API < Grape::API
     error!('上传失败!') unless res[:code] == 200
     #binding.pry
     pic = Picture.create(:url => res[:result]["key"], :user_id => current_user.id, :photo_album_name_id => params[:album_id] )
+    status 201
     present :pic, pic, with: Entities::Picture
   end
 
@@ -57,6 +58,7 @@ class PictureV1API < Grape::API
   get '' do
     pictures = current_user.pictures
     pictures = pictures.where(params) if params[:user_id].present? || params[:album_id].present?
+    status 201
     present :pic, paginate(pictures), with: Entities::Picture
   end
 

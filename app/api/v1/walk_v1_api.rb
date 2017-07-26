@@ -4,6 +4,7 @@ class WalkV1Api < Grape::API
   mount UserV1API => 'user'
   mount PhotoAlbumV1API => 'photo_album'
   mount PictureV1API => 'picture'
+  mount PlanV1API => 'plan'
 
   add_swagger_documentation base_path: '/api/v1',
                             hide_format: true ,
