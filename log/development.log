@@ -1,0 +1,1985 @@
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-13 14:37:53 +0800
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/swagger_doc"):
+  
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.2ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.5ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-13 14:38:25 +0800
+  
+NameError (uninitialized constant UserV1API::Entities):
+  
+app/apis/v1/user_v1_api.rb:6:in `block in <class:UserV1API>'
+app/apis/v1/user_v1_api.rb:5:in `<class:UserV1API>'
+app/apis/v1/user_v1_api.rb:3:in `<top (required)>'
+app/apis/v1/test_v1_api.rb:4:in `<class:TestV1API>'
+app/apis/v1/test_v1_api.rb:3:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.5ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-13 14:39:28 +0800
+  
+NameError (uninitialized constant TestV1API):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.5ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-13 14:40:28 +0800
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20170717015404)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "openid" varchar, "authentication_token" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170717015404"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-07-17 02:44:37.870030"], ["updated_at", "2017-07-17 02:44:37.870030"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? AND "users"."authentication_token" = ? LIMIT ?[0m  [["openid", "admin"], ["authentication_token", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("openid", "authentication_token", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["openid", "admin"], ["authentication_token", "admin"], ["created_at", "2017-07-17 02:49:39.843925"], ["updated_at", "2017-07-17 02:49:39.843925"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."opend" = ? LIMIT ?[0m  [["opend", "11"], ["LIMIT", 1]]
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 12:31:42 +0800
+  
+NameError (uninitialized constant Grape::Kaminari):
+  
+app/api/v1/user_v1_api.rb:4:in `<class:UserV1API>'
+app/api/v1/user_v1_api.rb:3:in `<top (required)>'
+app/api/v1/walk_v1_api.rb:4:in `<class:WalkV1Api>'
+app/api/v1/walk_v1_api.rb:3:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.1ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 12:58:21 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.3ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.7ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:11:26 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.5ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.0ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:12:45 +0800
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.4ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:15:09 +0800
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (60.8ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:17:27 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:17:39 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:18:00 +0800
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.9ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:18:30 +0800
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.4ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:19:18 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:25:17 +0800
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.4ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:33:38 +0800
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:33:51 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:34:37 +0800
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:44:39 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:45:53 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:47:44 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:48:33 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:49:51 +0800
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:50:36 +0800
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:51:07 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:51:15 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:51:38 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:52:38 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:52:39 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-17 13:52:56 +0800
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:53:02 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:56:03 +0800
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:57:14 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:57:16 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:57:38 +0800
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 13:59:37 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 14:00:05 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-17 14:01:18 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 10:28:26 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.5ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.6ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 10:36:48 +0800
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.2ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 10:37:01 +0800
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.8ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 10:41:39 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.5ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.8ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 10:48:27 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+GrapeSwagger::Errors::UnregisteredParser (No parser registered for User.):
+  
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:326:in `expose_params_from_model'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:204:in `block in response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `each_with_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:199:in `response_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:123:in `method_object'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:103:in `block in path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:97:in `path_item'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:82:in `block in path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `each'
+grape-swagger (0.27.2) lib/grape-swagger/endpoint.rb:80:in `path_and_definition_objects'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:56:in `block in setup'
+grape-swagger (0.27.2) lib/grape-swagger/doc_methods.rb:70:in `block in setup'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:59:in `block (2 levels) in generate_api_method'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:58:in `block in generate_api_method'
+grape (0.19.2) lib/grape/endpoint.rb:262:in `block in run'
+activesupport (5.0.4) lib/active_support/notifications.rb:166:in `instrument'
+grape (0.19.2) lib/grape/endpoint.rb:240:in `run'
+grape (0.19.2) lib/grape/endpoint.rb:313:in `block in build_stack'
+grape (0.19.2) lib/grape/middleware/base.rb:31:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+grape (0.19.2) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `catch'
+grape (0.19.2) lib/grape/middleware/error.rb:33:in `call!'
+grape (0.19.2) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (0.19.2) lib/grape/endpoint.rb:224:in `call!'
+grape (0.19.2) lib/grape/endpoint.rb:218:in `call'
+grape (0.19.2) lib/grape/router/route.rb:72:in `exec'
+grape (0.19.2) lib/grape/router.rb:119:in `process_route'
+grape (0.19.2) lib/grape/router.rb:74:in `block in identity'
+grape (0.19.2) lib/grape/router.rb:93:in `transaction'
+grape (0.19.2) lib/grape/router.rb:72:in `identity'
+grape (0.19.2) lib/grape/router.rb:57:in `block in call'
+grape (0.19.2) lib/grape/router.rb:135:in `with_optimization'
+grape (0.19.2) lib/grape/router.rb:56:in `call'
+grape (0.19.2) lib/grape/api.rb:119:in `call'
+grape (0.19.2) lib/grape/api.rb:45:in `call!'
+grape (0.19.2) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.1ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 11:38:41 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 11:40:06 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 11:55:41 +0800
+Started POST "/api/v1/user/create" for 127.0.0.1 at 2017-07-18 13:35:08 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-18 13:35:25 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 09:15:16 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePhotoAlbumNames (20170719015103)
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "photo_album_names" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" text, "user_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170719015103"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 10:54:10 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 10:54:44 +0800
+  
+SyntaxError (/Users/mac/walkthebaby/app/api/v1/photo_album_v1_api.rb:35: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    requires :name, type :String, desc :'相册名称'
+                          ^):
+  
+app/api/v1/photo_album_v1_api.rb:35: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/api/v1/walk_v1_api.rb:5:in `<class:WalkV1Api>'
+app/api/v1/walk_v1_api.rb:3:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (67.9ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 10:55:12 +0800
+  
+SyntaxError (/Users/mac/walkthebaby/app/api/v1/photo_album_v1_api.rb:35: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+    requires :name, type :string, desc :'相册名称'
+                          ^):
+  
+app/api/v1/photo_album_v1_api.rb:35: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/api/v1/walk_v1_api.rb:5:in `<class:WalkV1Api>'
+app/api/v1/walk_v1_api.rb:3:in `<top (required)>'
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.9ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 10:56:06 +0800
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 10:56:26 +0800
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 10:56:48 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 10:58:46 +0800
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:00:14 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/api/v1/photo_album_v1_api.rb:40:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (63.1ms)
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:01:59 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/api/v1/photo_album_v1_api.rb:40:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.4ms)
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:03:40 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/api/v1/photo_album_v1_api.rb:41:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.2ms)
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:05:32 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/api/v1/photo_album_v1_api.rb:40:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.5ms)
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:06:26 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/api/v1/photo_album_v1_api.rb:41:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.7ms)
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:08:23 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/api/v1/photo_album_v1_api.rb:42:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (48.6ms)
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:15:21 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/api/v1/photo_album_v1_api.rb:42:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.7ms)
+Started POST "/api/v1/photo_album/create_name" for 127.0.0.1 at 2017-07-19 11:17:15 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "photo_album_names" ("name", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "first"], ["user_id", 1], ["created_at", "2017-07-19 03:17:15.171284"], ["updated_at", "2017-07-19 03:17:15.171284"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 13:05:04 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.4) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.4) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreatePictures (20170719034915)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "url" text, "user_id" integer, "photo_album_name_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170719034915"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 13:06:04 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-19 13:07:08 +0800
+  
+Encoding::UndefinedConversionError ("\xFF" from ASCII-8BIT to UTF-8):
+  
+activesupport (5.0.4) lib/active_support/core_ext/object/json.rb:34:in `encode'
+activesupport (5.0.4) lib/active_support/core_ext/object/json.rb:34:in `to_json'
+activesupport (5.0.4) lib/active_support/core_ext/object/json.rb:34:in `to_json'
+activesupport (5.0.4) lib/active_support/json/encoding.rb:55:in `to_json'
+json (1.8.6) lib/json/common.rb:223:in `generate'
+json (1.8.6) lib/json/common.rb:223:in `generate'
+activesupport (5.0.4) lib/active_support/json/encoding.rb:99:in `stringify'
+activesupport (5.0.4) lib/active_support/json/encoding.rb:33:in `encode'
+activesupport (5.0.4) lib/active_support/json/encoding.rb:20:in `encode'
+activesupport (5.0.4) lib/active_support/core_ext/object/json.rb:37:in `to_json'
+grape (1.0.0) lib/grape/formatter/json.rb:6:in `call'
+grape (1.0.0) lib/grape/middleware/formatter.rb:44:in `block in build_formatted_response'
+grape (1.0.0) lib/grape/middleware/formatter.rb:44:in `collect'
+grape (1.0.0) lib/grape/middleware/formatter.rb:44:in `build_formatted_response'
+grape (1.0.0) lib/grape/middleware/formatter.rb:28:in `after'
+grape (1.0.0) lib/grape/middleware/base.rb:34:in `call!'
+grape (1.0.0) lib/grape/middleware/base.rb:24:in `call'
+grape (1.0.0) lib/grape/middleware/error.rb:34:in `block in call!'
+grape (1.0.0) lib/grape/middleware/error.rb:33:in `catch'
+grape (1.0.0) lib/grape/middleware/error.rb:33:in `call!'
+grape (1.0.0) lib/grape/middleware/base.rb:24:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+grape (1.0.0) lib/grape/endpoint.rb:227:in `call!'
+grape (1.0.0) lib/grape/endpoint.rb:221:in `call'
+grape (1.0.0) lib/grape/router/route.rb:72:in `exec'
+grape (1.0.0) lib/grape/router.rb:119:in `process_route'
+grape (1.0.0) lib/grape/router.rb:74:in `block in identity'
+grape (1.0.0) lib/grape/router.rb:93:in `transaction'
+grape (1.0.0) lib/grape/router.rb:72:in `identity'
+grape (1.0.0) lib/grape/router.rb:57:in `block in call'
+grape (1.0.0) lib/grape/router.rb:135:in `with_optimization'
+grape (1.0.0) lib/grape/router.rb:56:in `call'
+grape (1.0.0) lib/grape/api.rb:119:in `call'
+grape (1.0.0) lib/grape/api.rb:45:in `call!'
+grape (1.0.0) lib/grape/api.rb:40:in `call'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:17:in `block in <class:Constraints>'
+actionpack (5.0.4) lib/action_dispatch/routing/mapper.rb:46:in `serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.4) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.4) lib/action_dispatch/routing/route_set.rb:725:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (9.4ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (55.3ms)
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-19 13:09:54 +0800
+  
+TypeError (no implicit conversion of ActionDispatch::Http::UploadedFile into String):
+  
+app/api/v1/picture_v1_api.rb:54:in `block in <class:PictureV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (49.2ms)
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-19 13:15:10 +0800
+  
+TypeError (no implicit conversion of ActionDispatch::Http::UploadedFile into String):
+  
+app/api/v1/picture_v1_api.rb:55:in `block in <class:PictureV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (46.8ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-19 13:15:32 +0800
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-19 13:15:44 +0800
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-19 13:16:17 +0800
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 12:04:32 +0800
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 12:18:14 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-21 13:47:38 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "photo_album_names"[0m
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" ORDER BY "photo_album_names"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-21 13:48:37 +0800
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 13:49:49 +0800
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "pictures" ("url", "user_id", "photo_album_name_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["url", "{\"hash\"=>\"FrLxjf0XwD-NS0fxygrnHaPVAuHb\", \"key\"=>\"FrLxjf0XwD-NS0fxygrnHaPVAuHb\"}"], ["user_id", 1], ["photo_album_name_id", 1], ["created_at", "2017-07-21 05:49:51.470569"], ["updated_at", "2017-07-21 05:49:51.470569"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 13:50:56 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "pictures" ("user_id", "photo_album_name_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["photo_album_name_id", 1], ["created_at", "2017-07-21 05:50:59.432130"], ["updated_at", "2017-07-21 05:50:59.432130"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  
+TypeError (no implicit conversion of nil into String):
+  
+config/initializers/qiniu_config.rb:5:in `+'
+config/initializers/qiniu_config.rb:5:in `full_url'
+app/api/v1/entities/picture.rb:7:in `block in <class:Picture>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.9ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (8.2ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (60.8ms)
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 13:51:39 +0800
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pictures" ("user_id", "photo_album_name_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["photo_album_name_id", 1], ["created_at", "2017-07-21 05:51:40.588940"], ["updated_at", "2017-07-21 05:51:40.588940"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  
+TypeError (no implicit conversion of nil into String):
+  
+config/initializers/qiniu_config.rb:5:in `+'
+config/initializers/qiniu_config.rb:5:in `full_url'
+app/api/v1/entities/picture.rb:7:in `block in <class:Picture>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (48.1ms)
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 13:52:01 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" ORDER BY "photo_album_names"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" ORDER BY "photo_album_names"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."photo_album_name_id" = ?[0m  [["photo_album_name_id", 1]]
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 13:56:17 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "pictures" ("user_id", "photo_album_name_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["photo_album_name_id", 1], ["created_at", "2017-07-21 05:56:23.575432"], ["updated_at", "2017-07-21 05:56:23.575432"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  
+TypeError (no implicit conversion of nil into String):
+  
+config/initializers/qiniu_config.rb:5:in `+'
+config/initializers/qiniu_config.rb:5:in `full_url'
+app/api/v1/entities/picture.rb:7:in `block in <class:Picture>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (8.7ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (59.7ms)
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 13:57:30 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pictures" ("user_id", "photo_album_name_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["photo_album_name_id", 1], ["created_at", "2017-07-21 05:58:49.044322"], ["updated_at", "2017-07-21 05:58:49.044322"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  
+TypeError (no implicit conversion of nil into String):
+  
+config/initializers/qiniu_config.rb:5:in `+'
+config/initializers/qiniu_config.rb:5:in `full_url'
+app/api/v1/entities/picture.rb:7:in `block in <class:Picture>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (44.6ms)
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 13:59:04 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.0ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pictures" ("user_id", "photo_album_name_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["user_id", 1], ["photo_album_name_id", 1], ["created_at", "2017-07-21 05:59:27.306155"], ["updated_at", "2017-07-21 05:59:27.306155"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  
+TypeError (no implicit conversion of nil into String):
+  
+config/initializers/qiniu_config.rb:5:in `+'
+config/initializers/qiniu_config.rb:5:in `full_url'
+app/api/v1/entities/picture.rb:7:in `block in <class:Picture>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (45.8ms)
+  [1m[35mSQL (1.6ms)[0m  [1m[31mDELETE FROM "pictures"[0m
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 14:00:44 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[31mDELETE FROM "pictures"[0m
+Started POST "/api/v1/picture/upload" for 127.0.0.1 at 2017-07-21 14:03:24 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "pictures" ("url", "user_id", "photo_album_name_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["url", "Fuk7_2ig7nVqsZaaiF10G9aQzHwv"], ["user_id", 1], ["photo_album_name_id", 1], ["created_at", "2017-07-21 06:03:32.592605"], ["updated_at", "2017-07-21 06:03:32.592605"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-24 18:07:02 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-24 18:07:30 +0800
+Started GET "/api/v1/photo_album" for 127.0.0.1 at 2017-07-24 18:09:46 +0800
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "photo_album_names" WHERE "photo_album_names"."key" = ?[0m  [["key", "id"]]
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: photo_album_names.key: SELECT COUNT(*) FROM "photo_album_names" WHERE "photo_album_names"."key" = ?):
+  
+app/api/v1/photo_album_v1_api.rb:99:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.8ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (10.4ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (78.6ms)
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-24 18:11:33 +0800
+Started GET "/api/v1/photo_album?id=1" for 127.0.0.1 at 2017-07-24 18:11:43 +0800
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "photo_album_names" WHERE "photo_album_names"."id" = ?[0m  [["id", 1]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."id" = ? LIMIT ? OFFSET ?[0m  [["id", 1], ["LIMIT", 25], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/api/v1/photo_album?id=first" for 127.0.0.1 at 2017-07-24 18:12:05 +0800
+Started GET "/api/v1/photo_album?name=first" for 127.0.0.1 at 2017-07-24 18:12:16 +0800
+Started GET "/api/v1/photo_album?name=first" for 127.0.0.1 at 2017-07-24 18:12:17 +0800
+Started GET "/api/v1/photo_album?name=first" for 127.0.0.1 at 2017-07-24 18:12:18 +0800
+Started GET "/api/v1/photo_album?name=first" for 127.0.0.1 at 2017-07-24 18:12:21 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-24 18:12:39 +0800
+Started GET "/api/v1/photo_album?name=first" for 127.0.0.1 at 2017-07-24 18:12:48 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "photo_album_names" WHERE "photo_album_names"."name" = ?[0m  [["name", "first"]]
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" WHERE "photo_album_names"."name" = ? LIMIT ? OFFSET ?[0m  [["name", "first"], ["LIMIT", 25], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/api/v1/photo_album" for 127.0.0.1 at 2017-07-24 18:14:02 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "photo_album_names"[0m
+  [1m[36mPhotoAlbumName Load (0.1ms)[0m  [1m[34mSELECT  "photo_album_names".* FROM "photo_album_names" LIMIT ? OFFSET ?[0m  [["LIMIT", 25], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-24 18:18:03 +0800
+Started GET "/api/v1/swagger_doc" for 127.0.0.1 at 2017-07-24 18:18:39 +0800
+Started GET "/api/v1/picture?page=1&per_page=10" for 127.0.0.1 at 2017-07-24 18:18:45 +0800
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."page" = ? AND "pictures"."per_page" = ?[0m  [["page", 1], ["per_page", 10]]
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: pictures.page: SELECT COUNT(*) FROM "pictures" WHERE "pictures"."page" = ? AND "pictures"."per_page" = ?):
+  
+app/api/v1/picture_v1_api.rb:59:in `block in <class:PictureV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.5ms)
+Started GET "/api/v1/photo_album?page=1&per_page=10" for 127.0.0.1 at 2017-07-24 18:19:40 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "photo_album_names" WHERE "photo_album_names"."page" = ? AND "photo_album_names"."per_page" = ?[0m  [["page", 1], ["per_page", 10]]
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: photo_album_names.page: SELECT COUNT(*) FROM "photo_album_names" WHERE "photo_album_names"."page" = ? AND "photo_album_names"."per_page" = ?):
+  
+app/api/v1/photo_album_v1_api.rb:100:in `block in <class:PhotoAlbumV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.1ms)
+Started GET "/api/v1/picture?page=1&per_page=10" for 127.0.0.1 at 2017-07-24 18:20:26 +0800
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."page" = ? AND "pictures"."per_page" = ?[0m  [["page", 1], ["per_page", 10]]
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: pictures.page: SELECT COUNT(*) FROM "pictures" WHERE "pictures"."page" = ? AND "pictures"."per_page" = ?):
+  
+app/api/v1/picture_v1_api.rb:60:in `block in <class:PictureV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.2ms)
+Started GET "/api/v1/picture?page=1&per_page=10" for 127.0.0.1 at 2017-07-24 18:21:03 +0800
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."page" = ? AND "pictures"."per_page" = ?[0m  [["page", 1], ["per_page", 10]]
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: pictures.page: SELECT COUNT(*) FROM "pictures" WHERE "pictures"."page" = ? AND "pictures"."per_page" = ?):
+  
+app/api/v1/picture_v1_api.rb:60:in `block in <class:PictureV1API>'
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/mac/.rvm/gems/ruby-2.3.3/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (56.7ms)
+Started GET "/api/v1/picture?page=1&per_page=10" for 127.0.0.1 at 2017-07-24 18:23:30 +0800
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."openid" = ? LIMIT ?[0m  [["openid", "admin"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = ?[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."user_id" = ? LIMIT ? OFFSET ?[0m  [["user_id", 1], ["LIMIT", 10], ["OFFSET", 0]]
