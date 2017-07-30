@@ -1,0 +1,85 @@
+# Logfile created on 2017-07-30 15:15:51 +0800 by logger.rb/56438
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:15:51 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:15:59 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:16:41 +0800 cap production
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:16:43 +0800 cap production
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:16:51 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:21:11 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:22:21 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:24:47 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b7da2072] Running /usr/bin/env mkdir -p /tmp as walk@59.110.162.113
+  INFO [b7da2072] Finished in 3.230 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-walkthebaby-production-mac.sh 100.0%
+  INFO [7bf7f264] Running /usr/bin/env chmod 700 /tmp/git-ssh-walkthebaby-production-mac.sh as walk@59.110.162.113
+  INFO [7bf7f264] Finished in 0.249 seconds with exit status 0 (successful).
+  INFO [2d96ed8d] Running /usr/bin/env git ls-remote https://github.com/huangjiayuan/walkthebaby.git HEAD as walk@59.110.162.113
+  INFO [2d96ed8d] Finished in 1.527 seconds with exit status 0 (successful).
+  INFO [6555381b] Running /usr/bin/env mkdir -p /var/www/walkthebaby/shared /var/www/walkthebaby/releases as walk@59.110.162.113
+  INFO [6555381b] Finished in 0.392 seconds with exit status 0 (successful).
+  INFO [ad886a11] Running /usr/bin/env git clone --mirror https://github.com/huangjiayuan/walkthebaby.git /var/www/walkthebaby/repo as walk@59.110.162.113
+  INFO [ad886a11] Finished in 24.854 seconds with exit status 0 (successful).
+  INFO [fac73c60] Running /usr/bin/env git remote set-url origin https://github.com/huangjiayuan/walkthebaby.git as walk@59.110.162.113
+  INFO [fac73c60] Finished in 0.472 seconds with exit status 0 (successful).
+  INFO [9cbfa787] Running /usr/bin/env git remote update --prune as walk@59.110.162.113
+  INFO [9cbfa787] Finished in 1.638 seconds with exit status 0 (successful).
+  INFO [654ade71] Running /usr/bin/env mkdir -p /var/www/walkthebaby/releases/20170730072454 as walk@59.110.162.113
+  INFO [654ade71] Finished in 0.218 seconds with exit status 0 (successful).
+  INFO [e54379af] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/walkthebaby/releases/20170730072454 as walk@59.110.162.113
+  INFO [e54379af] Finished in 0.283 seconds with exit status 0 (successful).
+  INFO [7418c82c] Running /usr/bin/env echo "4a1992345ee0691cd30d0e6f90909a61647e68df" >> REVISION as walk@59.110.162.113
+  INFO [7418c82c] Finished in 0.783 seconds with exit status 0 (successful).
+  INFO [2c5872ba] Running /usr/bin/env ln -s /var/www/walkthebaby/releases/20170730072454 /var/www/walkthebaby/releases/current as walk@59.110.162.113
+  INFO [2c5872ba] Finished in 0.374 seconds with exit status 0 (successful).
+  INFO [1d7f62b0] Running /usr/bin/env mv /var/www/walkthebaby/releases/current /var/www/walkthebaby as walk@59.110.162.113
+  INFO [1d7f62b0] Finished in 0.430 seconds with exit status 0 (successful).
+  INFO [b82d448d] Running /usr/bin/env echo "Branch master (at 4a1992345ee0691cd30d0e6f90909a61647e68df) deployed as release 20170730072454 by mac" >> /var/www/walkthebaby/revisions.log as walk@59.110.162.113
+  INFO [b82d448d] Finished in 0.512 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-07-30 15:43:22 +0800 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6c7f5cdd] Running /usr/bin/env mkdir -p /tmp as walk@59.110.162.113
+  INFO [6c7f5cdd] Finished in 0.489 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-walkthebaby-production-mac.sh 100.0%
+  INFO [bd3ad19b] Running /usr/bin/env chmod 700 /tmp/git-ssh-walkthebaby-production-mac.sh as walk@59.110.162.113
+  INFO [bd3ad19b] Finished in 0.328 seconds with exit status 0 (successful).
+  INFO [49752c40] Running /usr/bin/env git ls-remote https://github.com/huangjiayuan/walkthebaby.git HEAD as walk@59.110.162.113
+  INFO [49752c40] Finished in 2.981 seconds with exit status 0 (successful).
+  INFO [f9f73dd3] Running /usr/bin/env mkdir -p /var/www/walkthebaby/shared /var/www/walkthebaby/releases as walk@59.110.162.113
+  INFO [f9f73dd3] Finished in 1.450 seconds with exit status 0 (successful).
+  INFO [0949003d] Running /usr/bin/env mkdir -p /var/www/walkthebaby/shared/public/assets as walk@59.110.162.113
+  INFO [0949003d] Finished in 0.305 seconds with exit status 0 (successful).
+  WARN puma.rb NOT FOUND!
+  INFO Uploading /var/www/walkthebaby/shared/puma.rb 100.0%
+  INFO puma.rb generated
+  INFO The repository mirror is at /var/www/walkthebaby/repo
+  INFO [e7b9b9e1] Running /usr/bin/env git remote set-url origin https://github.com/huangjiayuan/walkthebaby.git as walk@59.110.162.113
+  INFO [e7b9b9e1] Finished in 0.921 seconds with exit status 0 (successful).
+  INFO [a63c1ead] Running /usr/bin/env git remote update --prune as walk@59.110.162.113
+  INFO [a63c1ead] Finished in 2.254 seconds with exit status 0 (successful).
+  INFO [8a6c7b15] Running /usr/bin/env mkdir -p /var/www/walkthebaby/releases/20170730074336 as walk@59.110.162.113
+  INFO [8a6c7b15] Finished in 0.894 seconds with exit status 0 (successful).
+  INFO [e467ceca] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/walkthebaby/releases/20170730074336 as walk@59.110.162.113
+  INFO [e467ceca] Finished in 0.464 seconds with exit status 0 (successful).
+  INFO [6b351da6] Running /usr/bin/env echo "4a1992345ee0691cd30d0e6f90909a61647e68df" >> REVISION as walk@59.110.162.113
+  INFO [6b351da6] Finished in 0.885 seconds with exit status 0 (successful).
+  INFO [f0e52c60] Running /usr/bin/env mkdir -p /var/www/walkthebaby/releases/20170730074336/public as walk@59.110.162.113
+  INFO [f0e52c60] Finished in 0.679 seconds with exit status 0 (successful).
+  INFO [dfb79d26] Running /usr/bin/env ln -s /var/www/walkthebaby/shared/public/assets /var/www/walkthebaby/releases/20170730074336/public/assets as walk@59.110.162.113
+  INFO [dfb79d26] Finished in 0.519 seconds with exit status 0 (successful).
+  INFO [e6f0767e] Running /usr/local/rvm/bin/rvm default do bundle install --path /var/www/walkthebaby/shared/bundle --without development test --deployment --quiet as walk@59.110.162.113

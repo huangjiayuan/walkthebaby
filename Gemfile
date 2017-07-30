@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://gems.ruby-china.org/'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -52,6 +52,12 @@ gem 'qiniu', '~> 6.8.1'
 gem 'awesome_print', '~> 1.8'
 
 group :development, :test do
+  gem "capistrano", "~> 3.9"
+  gem 'capistrano-rvm'
+  gem 'capistrano-rails'
+  gem 'capistrano-rails-tail-log'
+  gem 'capistrano3-puma'
+  gem 'capistrano-bundler', require: false
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
