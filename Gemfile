@@ -40,11 +40,11 @@ gem 'simple_form'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'grape'
-
-gem 'grape-swagger-rails'
-gem 'grape-swagger-entity'
-gem 'grape-swagger-representable'
+# gem 'grape'
+#
+# gem 'grape-swagger-rails'
+# gem 'grape-swagger-entity'
+# gem 'grape-swagger-representable'
 
 gem 'grape-kaminari'
 gem 'kaminari-grape'
