@@ -3,12 +3,15 @@
   <head>
     <title>Walkthebaby</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', '/javascripts/my97/WdatePicker.js', 'data-turbolinks-track': 'reload' %>
+    <%= Gon::Base.render_data %>
   </head>
 
   <body>
-    <%= yield %>
+    <div style="width: 80%; margin-left: 10%; margin-top: 100px;">
+      <%= yield %>
+    </div>
+    
   </body>
 </html>

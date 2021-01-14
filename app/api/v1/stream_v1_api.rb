@@ -1,6 +1,6 @@
 require 'grape'
 require 'grape-swagger'
-class NoticeV1API < Grape::API
+class StreamV1API < Grape::API
   include Grape::Kaminari
   format :json
 
@@ -26,8 +26,8 @@ class NoticeV1API < Grape::API
     end
   end
 
-  desc '公告列表' do
-    detail '获取公告列表'
+  desc '直播列表' do
+    detail '获取直播列表'
     success Entities::Notice
     headers "Authentication-Token": {
       description: '用户token', required: false},
@@ -37,24 +37,9 @@ class NoticeV1API < Grape::API
   end
   paginate per_page: 10, offset: false
   get 'index' do
-    notices = Notice.all
+    streams = Stream.all
     status 200
-    present :notice, paginate(notices), with: Entities::Notice
+    present :notice, paginate(streams), with: Entities::Stream
   end
 
-  desc '公告列表' do
-    detail '获取单个公告'
-    success Entities::Notice
-    headers "Authentication-Token": {
-      description: '用户token', required: false},
-      "Openid":{description: '微信ID', required: false}
-  end
-  params do
-    requires :id, type: String, desc: '公告通知id'
-  end
-  get 'show' do
-    notice = Notice.find_by_id(params["id"])
-    status 200
-    present :notice, notice, with: Entities::Notice
-  end
 end

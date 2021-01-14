@@ -32,11 +32,13 @@ class UserV1API < Grape::API
     headers "Authentication-Token": {description: '用户token', required: false},"Openid":{description: '微信ID', required: false}
   end
   params do
+    requires :name, type: String, desc: '用户微信昵称'
   end
   post 'create' do
     openid = headers['Openid']
     user = User.find_or_create_by(:openid => openid)
+    user.update(params["name"]) if user.name != params["name"]
     status 201
-    present :user ,user,with: Entities::User
+    present :user ,user, with: Entities::User
   end
 end

@@ -1,0 +1,35 @@
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">流名字</th>
+        <th scope="col">直播名称</th>
+        <th scope="col">开始时间</th>
+        <th scope="col">结束时间</th>
+        <th scope="col">推流地址</th>
+        <th scope="col">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @streams.each_with_index do |stream, index| %>
+        <tr>
+            <th scope="row"><%= (params[:page].to_i)*20 + index + 1 %></th>
+            <td><%= stream.name %></td>
+            <td><%= stream.live_name %></td>
+            <td><%= stream.start_time %></td>
+            <td><%= stream.end_time %></td>
+            <td><%= stream.push_url %></td>
+            <td>
+            <div class="btn-group-vertical">
+                <%= link_to  "修改", edit_live_list_path(id: stream.id), class: "btn btn-primary" %>
+                <%= link_to  "刷新推流地址", sync_push_pull_live_lists_path(id: stream.id), class: "btn btn-warning wn" %>
+                <%= link_to  "刷新直播记录", sync_info_live_lists_path(id: stream.id), class: "btn btn-success wn" %>
+                <%= link_to  "直播记录", live_list_path(stream), class: "btn btn-info wn" %>
+                <%= link_to  "保存直播视频", save_mpfour_live_lists_path(id: stream.id), class: "btn btn-secondary wn" %>
+            </div>
+            </td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
+<%= paginate @streams %>

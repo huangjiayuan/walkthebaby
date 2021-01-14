@@ -1,0 +1,35 @@
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">直播名称</th>
+        <th scope="col">开始时间</th>
+        <th scope="col">结束时间</th>
+        <th scope="col">客户端IP</th>
+        <th scope="col">服务端IP</th>
+        <th scope="col">操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @stream_infos.each_with_index do |stream_info, index| %>
+        <tr>
+            <th scope="row"><%= (params[:page].to_i)*30 + index + 1 %></th>
+            <td><%= stream_info.live_name %></td>
+            <td><%= stream_info.start_time_str %></td>
+            <td><%= stream_info.end_time_str %></td>
+            <td><%= stream_info.client_iP %></td>
+            <td><%= stream_info.server_iP %></td>
+            <td>
+                <div class="btn-group-vertical">
+                    <%= link_to  "回放", '#', class: "btn btn-primary" %>
+                    <%= link_to  "视频下载", '#', class: "btn btn-warning wn" %>
+                </div>
+            </td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
+<%= paginate @stream_infos %>
+<blockquote class="blockquote text-center" style="margin-top: 20px;">
+  <%= link_to  "返回", live_lists_path, class: "btn btn-primary" %>
+</blockquote>

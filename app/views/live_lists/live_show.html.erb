@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>简单的html示例</title>
+</head>
+<body>
+
+<div id="playercontainer"></div>
+<script type="text/javascript" src="/cyberplayer/cyberplayer.js"></script>
+<script type="text/javascript">
+    var player = cyberplayer("playercontainer").setup({
+        width: 640,
+        height: 360,
+        file: "rtmp://pili-live-rtmp.sdqy.bidlive.com.cn/qingyuncaizheng-kongjian/qingyun_2?sign=17249c3bc37df4eb840e5eb94ea3e794&t=60005710", // <—rtmp直播地址
+        autostart: true,
+        stretching: "uniform",
+        volume: 100,
+        controls: true,
+        rtmp: {
+            reconnecttime: 5, // rtmp直播的重连次数
+            bufferlength: 1 // 缓冲多少秒之后开始播放 默认1秒
+        },
+        ak: "ade4dd924ab34c468054c2bccf3b2c0d" // 公有云平台注册即可获得accessKey
+    });
+</script>
+</body>
+</html>

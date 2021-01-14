@@ -1,10 +1,6 @@
 class User < ApplicationRecord
   before_create :set_token
 
-  has_many :photo_album_names
-  has_many :pictures
-  has_many :plans
-
   def set_token
     loop do
       self.authentication_token = SecureRandom.base64(16)

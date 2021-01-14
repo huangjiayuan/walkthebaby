@@ -1,0 +1,3 @@
+class Opinion < ActiveRecord
+
+end
